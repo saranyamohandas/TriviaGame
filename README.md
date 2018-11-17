@@ -17,4 +17,4 @@ ___
 * Application has used jquery extensively for adding,modifying and removing events
 * JQuery has also been used to add styles and dynamically generate elements.
 
-__Link to game__ : https://saranyamohandas.github.io/unit-4-game/
+__Link to game__ : https://saranyamohandas.github.io/TriviaGame/
