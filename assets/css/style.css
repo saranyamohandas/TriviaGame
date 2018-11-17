@@ -1,0 +1,36 @@
+body {
+    background-image: url(../images/wet_snow.png);
+}
+.container{
+    position: relative;
+    top: 50px;
+    width: 500px;
+    margin: auto;
+    font-family: 'Sanchez', serif;
+    font-size: 20px;
+    
+}
+.jumbotron{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size:50px;
+    
+}
+#time{
+    background-color: #B0F8DB;
+    padding: 10px 20px;
+    border: none ;
+    border-radius: 5px;
+}
+#summary{
+    padding: 10px;
+    width: 400px;
+    border-radius: 5px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+#reset{
+    margin: 20px;
+}

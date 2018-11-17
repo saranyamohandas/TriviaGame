@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BS Portfolio-Index</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Sanchez" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+  <div class="jumbotron">
+     <h2 class="display-4">Bang!! Bang!!</h2>
+     <h3> Let's play a quiz!</h3>
+      <button class="btn btn-primary" id="start">Start Quiz!</button>
+  </div>
+<div class="container">
+<div class="row">
+   <div class="col-sm-12" "col-md-12">
+   <p id="totaltime">Time Remaining : <span id="time"></span> <span>seconds</span></p>
+   </div>
+    
+</div>
+<div class="row" id="summary">
+<div class="col-sm-8 col-md-8">
+
+ 
+ <p class="result">All done!</p>
+
+  <p class="result"> Correct Answers : <span id="won"></span></p>
+  <p class="result"> Incorrect Answers : <span id="lost"></span></p>
+  <p class="result"> Unanswered : <span id="noAttempt"></span></p>
+    </div>
+    <div class="col-sm-4 col-md-4">
+    
+  <img class="result" src="assets/images/done-sticky-note.jpg" width="100px">
+ 
+  <button class="btn btn-primary" id="reset">Reset</button>
+      
+        </div>
+      
+  </div>
+  <div class="row">
+     <div class="col-sm-12 col-md-12">
+ <form>
+   <p id="p0"></p>
+    <div class="radio">
+      <label><input type="radio" name="ques1" id="inp1" value="India"> India</label>
+      <label><input type="radio"  name="ques1"  value="South Africa" > South Africa</label>
+      <label><input type="radio" name="ques1"  value="Singapore"
+      > Singapore</label>
+    </div>
+    </form>
+         
+     </div>
+      
+  </div>
+  
+  <div class="row">
+     <div class="col-sm-12 col-md-12">
+    <form>
+    <p id="p1"></p>
+    <div class="radio">
+      <label><input type="radio"  name="ques2"  value="Rome">Rome</label>
+      <label><input type="radio" name="ques2" value="Malaysia"> Malaysia</label>
+      <label><input type="radio" name="ques2" value="Madrid"> Madrid</label>
+    </div>
+    </form>
+    </div>
+      
+  </div>
+  <div class="row">
+     <div class="col-sm-12 col-md-12">
+    <form>
+  
+    <p id="p2"></p>
+    <div class="radio">
+       <label><input type="radio" name="ques3" value="Tamil">Tamil</label>
+      <label><input type="radio" name="ques3" value="Mandarin"> Mandarin</label>
+      <label><input type="radio" name="ques3" value="English"> English</label>
+    </div>
+    </form>
+        </div>
+    </div>
+   <div class="row">
+     <div class="col-sm-12 col-md-12">
+    <form>
+    <p id="p3"></p>
+    <div class="radio">
+       <label><input type="radio" name="ques4" value="Russia">Russia</label>
+      <label><input type="radio" name="ques4" value="Burma"> Burma</label>
+      <label><input type="radio" name="ques4" value="Canada"> Canada</label>
+    </div>
+    
+    </form>
+    </div>
+      
+  </div>
+    
+    
+    
+    <div class="row">
+     <div class="col-sm-12 col-md-12">
+    <form>
+    <p id="p4"></p>
+    <div class="radio">
+       <label><input type="radio" name="ques5"  value="1945">1945</label>
+      <label><input type="radio"  name="ques5"  value="1947"> 1947</label>
+      <label><input type="radio" name="ques5"  value="1935"> 1935</label>
+    </div>
+    </form>
+        </div>
+    </div>
+    
+    <div class="row">
+     <div class="col-sm-12 col-md-12">
+    <form>
+    <p id="p5"></p>
+    <div class="radio">
+       <label><input type="radio" name="ques6" value="Balu">Balu</label>
+      <label><input type="radio" name="ques6"value="Simba"> Simba</label>
+      <label><input type="radio" name="ques6" value="Mufasa"> Mufasa</label>
+    </div>
+    </form>
+        </div>
+    </div>
+    
+    <div class="row">
+     <div class="col-sm-12 col-md-12">
+    <form>
+    <p id="p6"></p>
+    <div class="radio">
+       <label><input type="radio" name="ques7" value="Scotland">Scotland</label>
+      <label><input type="radio" name="ques7" value="Netherland"> Netheraland</label>
+      <label><input type="radio" name="ques7" value="Switzerland"> Switzerland</label>
+    </div>
+    </form>
+        </div>
+    </div>
+    <div class="row">
+     <div class="col-sm-12 col-md-12">
+    <form>
+    <p id="p7"></p>
+    <div class="radio">
+       <label><input type="radio" name="ques8" value="Franklin Delano Roosevelt">Franklin Delano Roosevelt</label>
+      <label><input type="radio" name="ques8" value="Winston Churchill"> Winston Churchill</label>
+      <label><input type="radio" name="ques8" value="Adolf Hitler">Adolf Hitler</label>
+    </div>
+    </form>
+        </div>
+    </div>
+    
+</div>
+       
+   
+    
+   
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+    
+  </body>
+</html>
