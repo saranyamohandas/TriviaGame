@@ -1,5 +1,5 @@
 ----
-Homework  - JavaScript Assignment 2 - Trivia Game
+# JavaScript - Trivia Game
 ___
 
 ### This is a quiz game that has been developed using HTML,CSS,bootstrap,javascript and jquery library.
